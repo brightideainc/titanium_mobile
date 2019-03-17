@@ -8,6 +8,7 @@ package org.appcelerator.titanium;
 
 public interface ITiAppInfo {
 	public String getId();
+	public String getPackageName();
 	public String getName();
 	public String getVersion();
 	public String getPublisher();

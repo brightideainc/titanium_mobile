@@ -85,7 +85,7 @@ public class TiRHelper
 
 		// Get the clsPrefixApplication if this is the first time
 		if (clsPrefixApplication == null)
-			clsPrefixApplication = TiApplication.getInstance().getApplicationInfo().packageName + ".R$";
+			clsPrefixApplication = TiApplication.getInstance().getAppInfo().getPackageName() + ".R$";
 		if (prefix == null) {
 			prefix = clsPrefixApplication;
 		}
